@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "baseUrl": "src",
+    "rootDirs": ["src", "tests"],
+    "module": "commonjs",
+    "target": "es2021",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "@main/*": ["main/*"],
+      "@data/*": ["data/*"],
+      "@domain/*": ["domain/*"],
+      "@infra/*": ["infra/*"],
+      "@application/*": ["application/*"],
+      "@tests/*": ["../tests/*"]
+    }
+  },
+  "include": ["src", "tests"]
+}
